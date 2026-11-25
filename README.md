@@ -25,7 +25,7 @@ Configurer le reverse proxy HTTPS pour `gnhorizon.ca` vers le port 3000 du conte
 ## État avant publication
 
 - Le formulaire est en mode démonstration : aucune demande n’est envoyée. Brancher un service d’envoi avant l’ouverture au public.
-- Les pages restent en `noindex,nofollow` jusqu’à validation de la publication.
+- Le SEO technique autorise désormais l’indexation des sept pages canoniques ; sitemap : `/sitemap.xml`.
 - Les photos Unsplash, les polices Google et Google Maps utilisent des services externes.
 - Vérifier les garanties commerciales et les témoignages avant publication.
 
