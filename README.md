@@ -29,4 +29,8 @@ Configurer le reverse proxy HTTPS pour `gnhorizon.ca` vers le port 3000 du conte
 - Les photos Unsplash, les polices Google et Google Maps utilisent des services externes.
 - Vérifier les garanties commerciales et les témoignages avant publication.
 
-Le dépôt Git local n’a pas encore de remote. Ajouter l’adresse SSH GitHub lorsque disponible.
+## Déploiement automatique
+
+Le dépôt GitHub `mbokodev/gnhorizon` est relié à Dokploy. Les événements push sont transmis par webhook HTTPS ; Dokploy déploie la branche `main` avec le Dockerfile à la racine.
+
+Le webhook se gère dans les paramètres GitHub du dépôt. Son URL contient un jeton de déclenchement et ne doit pas être ajoutée au code source.
